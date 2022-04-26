@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/6a4d230daf.js" crossorigin="anonymous"></script>    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../stylesgrid.css">
     <link rel="shortcut icon" href="../img_logo/logo_3.jpg" type="image/x-icon">
@@ -12,7 +13,7 @@
 </head>
 <body>
     <header>
-        <div class="logo-container">
+        <div data-aos="flip-up" class="logo-container">
             <a href="../index.html"><img src="../img_logo/logo_1.jpg" alt="logo" class="logo"></a>
         </div>
         <div class="menu">
@@ -27,7 +28,7 @@
     </header>
     <section>
         <article>
-            <div class="title">
+            <div data-aos="fade-right" class="title">
                 <h1>Nosotros...</h1>
             </div>
         </article>
@@ -41,13 +42,17 @@
             </div>    
             <p class="p_home">param Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quam excepturi? Repellat magni id ullam iste, unde, perspiciatis rem explicabo deleniti, aspernatur culpa sit mollitia consequatur porro sint? Facere, at!</p>
     </section>
-    <footer>
+    <footer data-aos="zoom-in">
         <div class="buttons">
             <a href="https://www.instagram.com/pabloquiinteros/?hl=es" class="fa-brands fa-instagram"></a>
             <a href="https://www.facebook.com/Quinteros.Nicolas30/" class="fa-brands fa-facebook"></a>
             <a href="https://wa.me/5491134912006" class="fa-brands fa-whatsapp"></a>
         </div>
-        <p>¡Nuestras Redes!</p>
+        <p>¡Seguinos en nuestras Redes!</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

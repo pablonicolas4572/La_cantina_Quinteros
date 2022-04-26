@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">     
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../stylesgrid.css">
     <link rel="shortcut icon" href="../img_logo/logo_3.jpg" type="image/x-icon">
@@ -30,10 +31,10 @@
     </header>
     <section>
         <article>
-            <div class="title">
+            <div data-aos="fade-right" class="title">
                 <h1>Nuestra galería...</h1>
             </div>
-            <em class="p_home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis rem cumque reprehenderit.</em>
+            <em data-aos="fade-right" class="p_home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis rem cumque reprehenderit.</em>
             
         </article>
         
@@ -48,9 +49,9 @@
                <div class="image image8">8</div>
             
         </article>
-        <p class="p_home">Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>lorem ipsum dolor</strong> ullam fugit quae nobis illo maxime deleniti odit. Optio nostrum soluta, necessitatibus magnam adipisci voluptas accusamus facere consequuntur eaque omnis veritatis.</p>
+        <p data-aos="fade-right" class="p_home">Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>lorem ipsum dolor</strong> ullam fugit quae nobis illo maxime deleniti odit. Optio nostrum soluta, necessitatibus magnam adipisci voluptas accusamus facere consequuntur eaque omnis veritatis.</p>
     </section> 
-    <footer>
+    <footer data-aos="zoom-in">
         <div class="buttons">
             <a href="https://www.instagram.com/pabloquiinteros/?hl=es" class="fa-brands fa-instagram"></a>
             <a href="https://www.facebook.com/Quinteros.Nicolas30/" class="fa-brands fa-facebook"></a>
@@ -58,6 +59,9 @@
         </div>
         <p>¡Seguinos en nuestras redes!</p>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

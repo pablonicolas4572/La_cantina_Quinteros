@@ -24,6 +24,11 @@ body{
     border-radius: 50%;
     margin: 2em;
 }
+.logo:hover{
+    transform: scale(1.1);
+    transition: all 0.4s;
+    
+}
 /* header{
     background: rgb(231,127,48);
     background: radial-gradient(circle, rgba(231,127,48,1) 16%, rgba(60,28,26,1) 100%);
@@ -32,6 +37,7 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+
 .menu ul{
     
     list-style: none;
@@ -47,11 +53,10 @@ body{
     display: block;
     padding: 10px 110px;
     text-decoration: none; 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 .menu ul li a:hover{
     color: rgb(0, 0, 0);
-    transition: color 0.3s ease-out;
+    transition: color 0.3s ease; 
 }
 
 .title{
@@ -94,7 +99,7 @@ body{
 }
 .formContainer__title{
     padding-bottom: 1em;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 217, 0);
 }
 .divForm{
     display: flex;
@@ -119,6 +124,10 @@ float: right;
 }
 .radio{
    margin-top: 2em;
+}
+.pedido:hover{
+    transform: scale(1.2);
+    transition: all 0.3s;
 }
 footer{
     margin-top: 6rem;
@@ -201,5 +210,11 @@ footer p{
 .video__1{
     margin-left: 25%;
     width: 50%;
+
+}
+.image:hover{
+    transform: scale(1.03);
+    transition: all 0.3s;
+
 
 }

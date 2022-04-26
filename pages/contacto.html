@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">     
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../stylesgrid.css">
     <link rel="stylesheet" href="../styles.css">
     <link rel="shortcut icon" href="../img_logo/logo_3.jpg" type="image/x-icon">
     <title>La Cantina</title>
@@ -30,11 +32,11 @@
     <main>
         <section>
             <article>
-                <div class="title">
+                <div data-aos="fade-right" class="title">
                     <h1>¡Contactanos!</h1>
                 </div>
             </article>
-            <article class="Formulario">
+            <article data-aos="fade-right" class="Formulario">
                     <h4>Formulario de Contacto</h4>
                     <input class="controles" type="text"
                     name="nombres" placeholder="Ingrese su nombre">
@@ -56,13 +58,17 @@
             </article>
  </section>
     </main>
-    <footer>
+    <footer data-aos="zoom-in">
         <div class="buttons">
             <a href="https://www.instagram.com/pabloquiinteros/?hl=es" class="fa-brands fa-instagram"></a>
             <a href="https://www.facebook.com/Quinteros.Nicolas30/" class="fa-brands fa-facebook"></a>
             <a href="https://wa.me/5491134912006" class="fa-brands fa-whatsapp"></a>
         </div>
-        <p>¡Nuestras Redes!</p>
+        <p>¡Seguinos en nuestras Redes!</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
