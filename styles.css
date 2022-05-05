@@ -82,7 +82,7 @@ body{
 .ubication{
     font-size: 2em;
     margin-left: 1.5em;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 210, 85);
     text-decoration: underline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -105,8 +105,8 @@ body{
 .divForm{
     display: flex;
     flex-direction: column;
-   margin-right: 2em;
-    background-color: rgb(184, 125, 15, 0.2);
+    margin-right: 2em;
+    background-color: rgb(255, 252, 247);
     border-radius: 10%;
     
 }
@@ -124,7 +124,7 @@ float: right;
     color: #fff;
 }
 .radio{
-   margin-top: 2em;
+    margin-top: 2em;
 }
 .pedido:hover{
     transform: scale(1.2);
@@ -229,4 +229,35 @@ footer p{
     background-color: brown;
     border-radius: 100%;
 }
+.logo{
+    width: 30%;
+}
+.navbar{
+    background-color: rgb(255, 255, 255, 0.6);
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+.navbar-nav{
+    align-content: space-around;
+    align-items: center;
+    gap:3rem;
+}
 
+.navbar-light .navbar-toggler{
+    border-color: rgb(0, 0, 0);
+    border-radius:  100%;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(0, 0, 0);
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    transform: scale(2);
+    color: rgb(165, 0, 0);
+    transition: all 0.3s;
+}
+.form-check-label{
+    color: #fff;
+}
+h5{
+    color: #fff;
+}
