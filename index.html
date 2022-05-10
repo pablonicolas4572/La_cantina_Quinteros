@@ -21,7 +21,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand logo" href="#">
+                <a class="navbar-brand logo" href="/pages/inicio.html">
                     <img src="/img_logo/logo_1.png" alt="logo" class="d-block w-100">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -46,6 +46,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/pages/contacto.html">Contacto</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/pedidos.html">Armá tu pedido</a>
+                        </li>
+                        
                     </ul>
                 </div>
         </nav>
@@ -81,53 +85,13 @@
         </article>
     </section>
     <section class="container-fluid">
-        <div class="ubi_form row d-flex">
+        <div class="row d-flex">
             <p class="ubication">Ubicación:</p>
-            <article class="col-6 d-flex justify-content-center w-50">
-                <iframe class=""
+            <iframe class="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1640.5768703650153!2d-58.45547784190054!3d-34.67606909511023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbf8530b4f5f%3A0x643532a7ae66e86f!2sJeanette%20Campbell%204592-4504%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1648661263488!5m2!1ses-419!2sar"
                 loading="logo-container"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <br>
-            </article>
-                <div class="col-6 d-flex justify-content-center w-50">
-            <form method="get" enctype="text/plain">
-                <h2 class="formContainer__title">¡Armá tu pedido como quieras!</h2>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                        <h4>Pizzas $...</h4>
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                        <h4>Bebidas $...</h4>
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                        <h4>Pizza + Bebida $...</h4>
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                        <h4>Pizza $...</h4>
-                    </label>
-                </div>
-                <div class="d-flex align-items-baseline">
-                <input name="pedidos" type="radio" class="radio"><h5>Pedir delivery</h5><br>
-                </div>
-                <div class="d-flex align-items-baseline">
-                <input name="pedidos" type="radio" class="radio"><h5>Retirar en local</h5><br>
-                </div>
-                <!-- <input type="button" class="pedido" value="Realizar pedido"> -->
-                <button type="button" class="boton btn">Realizar pedido</button>
-            </form>
-            </div>
-        </div>
+            <br>
     </section>
     <br>
     <footer>
