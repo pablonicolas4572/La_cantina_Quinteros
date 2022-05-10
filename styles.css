@@ -1,315 +1,314 @@
 * {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(/img_pizzas/pizza_background.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(./img_pizzas/pizza_background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 /* header*/
 .logo:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 .menu {
-  width: 80%;
-  margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .title {
-  margin: 2em auto;
-  text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 3em;
-  letter-spacing: 5px;
-  color: white;
+    margin: 2em auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    letter-spacing: 5px;
+    color: white;
 }
 
 .subtitle {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
 
 .p_home {
-  margin: 2em 1em 2em 1em;
-  font-size: 2em;
-  text-align: center;
-  color: white;
+    margin: 2em 1em 2em 1em;
+    font-size: 2em;
+    text-align: center;
+    color: white;
 }
 
 .ubication {
-  font-size: 2em;
-  /* margin-left: 1.5em; */
-  color: #f2b40c;
-  /* text-decoration: underline; */
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
+    font-size: 2em;
+    /* margin-left: 1.5em; */
+    color: #f2b40c;
+    /* text-decoration: underline; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 .map {
-  height: 500px;
+    height: 500px;
 }
 
 footer {
-  margin-top: 6rem;
-  background-color: rgba(210, 105, 30, 0.5);
-  padding: 3rem;
-  color: black;
+    margin-top: 6rem;
+    background-color: rgba(210, 105, 30, 0.5);
+    padding: 3rem;
+    color: black;
 }
 
 .buttons {
-  font-size: 40px;
+    font-size: 40px;
 }
 
 footer a {
-  -webkit-transition: color 0.3s ease;
-  transition: color 0.3s ease;
-  float: right;
-  padding-right: 15px;
-  text-decoration: none;
-  color: white;
-  letter-spacing: 2rem;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    float: right;
+    text-decoration: none;
+    color: white;
 }
 
 footer a:hover {
-  color: black;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+    color: black;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 footer p {
-  color: white;
-  margin: 0;
-  font-size: 2rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Formulario {
-  width: 30rem;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 30px;
-  margin: auto;
-  margin-top: 100px;
-  border-radius: 4px;
-  font-family: 'calibri';
-  color: white;
-  -webkit-box-shadow: 7px 5px 5px 0 black;
-          box-shadow: 7px 5px 5px 0 black;
+    width: 30rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    -webkit-box-shadow: 7px 5px 5px 0 black;
+    box-shadow: 7px 5px 5px 0 black;
 }
 
 .Formulario .Formulario h4 {
-  font-size: 22px;
-  margin-bottom: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
 }
 
 .Formulario .controles {
-  width: 100%;
-  background-color: #24303c;
-  padding: 10px;
-  border: #1f53c5 solid 2px;
-  border-radius: 4px;
-  margin-bottom: 1rem;
-  resize: none;
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border: #1f53c5 solid 2px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: none;
 }
 
 .Formulario .Formulario p {
-  height: 80px;
-  text-align: center;
-  font-size: 20px;
-  line-height: 40px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
 }
 
 .Formulario .Formulario a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .Formulario .Formulario a:hover {
-  color: white;
-  text-decoration: underline;
-  -webkit-transition: color 0.3s ease-out;
-  transition: color 0.3s ease-out;
+    color: white;
+    text-decoration: underline;
+    -webkit-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
 }
 
 .Formulario .boton {
-  width: 100%;
-  background: #1f53c5;
-  border: none;
-  padding: 20px;
-  color: white;
-  margin: 20px 0;
-  font-size: 16px;
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 20px;
+    color: white;
+    margin: 20px 0;
+    font-size: 16px;
 }
 
 .casilla {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 .video__1 {
-  margin-left: 25%;
-  width: 50%;
+    margin-left: 25%;
+    width: 50%;
 }
 
 .image:hover {
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .carousel {
-  margin: 0 auto;
-  width: 70%;
+    margin: 0 auto;
+    width: 70%;
 }
 
 .carousel-inner {
-  border-radius: 30%;
+    border-radius: 30%;
 }
 
 .carousel-indicators [data-bs-target] {
-  background-color: brown;
-  border-radius: 100%;
+    background-color: brown;
+    border-radius: 100%;
 }
 
 .logo {
-  width: 30%;
+    width: 30%;
 }
 
 .navbar {
-  background-color: #fc620d;
-  border-bottom-left-radius: 2%;
-  border-bottom-right-radius: 2%;
+    background-color: #fc620d;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
 }
 
 .navbar-nav {
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 3rem;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 3rem;
 }
 
 .navbar-light .navbar-toggler {
-  border-color: black;
-  border-radius: 100%;
+    border-color: black;
+    border-radius: 100%;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: black;
+    color: black;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  -webkit-transform: scale(2);
-          transform: scale(2);
-  color: #a50000;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    color: #a50000;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .form-check-label {
-  color: white;
+    color: white;
 }
 
 h5 {
-  color: white;
+    color: white;
 }
 
 .contt {
-  padding: 2em;
+    padding: 2em;
 }
 
 .contt .row {
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  height: 500px;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    height: 500px;
 }
 
 .contt .row .imgg {
-  border: white 3px solid;
+    border: white 3px solid;
 }
 
 .contt .row .imgg h4, .contt .row .imgg p {
-  color: white;
-  text-align: left;
+    color: white;
+    text-align: left;
 }
 
 .img-p1 {
-  background-image: url(/img_pizzas/masa_pizza.jpg);
-  background-position: center;
-  background-size: cover;
+    background-image: url(/img_pizzas/masa_pizza.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .img-p2 {
-  background-image: url(/img_pizzas/p_1.jpeg);
-  background-position: center;
-  background-size: cover;
+    background-image: url(/img_pizzas/p_1.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 
 .img-p3 {
-  background-image: url(/img_pizzas/p_2.jpeg);
-  background-position: center;
-  background-size: cover;
+    background-image: url(/img_pizzas/p_2.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 
 .img-p4 {
-  background-image: url(/img_pizzas/p_3.jpeg);
-  background-position: center;
-  background-size: cover;
+    background-image: url(/img_pizzas/p_3.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 
 .img-p5 {
-  background-image: url(/img_pizzas/pizza-champignon.jpeg);
-  background-position: center;
-  background-size: cover;
+    background-image: url(/img_pizzas/pizza-champignon.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 
 .img-p6 {
-  background-image: url(/img_pizzas/pizza-chica.jpg);
-  background-position: center;
-  background-size: cover;
+    background-image: url(/img_pizzas/pizza-chica.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .img-p7 {
-  background-image: url(/img_pizzas/pizza-cocina.jpg);
-  background-position: center;
-  background-size: cover;
+    background-image: url(/img_pizzas/pizza-cocina.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .img-p8 {
-  background-image: url(/img_pizzas/pizza-fondo2.jpg);
-  background-position: center;
-  background-size: cover;
+    background-image: url(/img_pizzas/pizza-fondo2.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .realizarpedido {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
 }
 
 .realizarpedido .boton2 {
-  width: 20%;
-  padding: 20px;
-  background-color: #f23c0c;
+    width: 20%;
+    padding: 20px;
+    background-color: #f23c0c;
 }
+
 /*# sourceMappingURL=styles.css.map */

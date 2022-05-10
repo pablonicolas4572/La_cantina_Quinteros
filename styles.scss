@@ -7,7 +7,7 @@
 body{
 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url(/img_pizzas/pizza_background.jpg);
+    background-image: url(./img_pizzas/pizza_background.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -18,7 +18,6 @@ body{
 .logo:hover{
     transform: scale(1.1);
     transition: all 0.4s;
-    
 }
 .menu{
     width: 80%;
@@ -41,7 +40,6 @@ body{
     font-size: 2em;
     text-align: center;
     color: $color6;
-    
 }
 .ubication {
     font-size: 2em;
@@ -72,20 +70,16 @@ footer a{
     color: $color6;
     letter-spacing: 2rem;
 }
-        
 footer a:hover{
     color: rgb(0, 0, 0);
     transition: all 0.2s ease-in-out;
 }
-            
 footer p{
     color:$color6;
     margin: 0;
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
 .Formulario{
     width: 30rem;
     background-color: rgba(0, 0, 0, 0.7);
@@ -95,8 +89,7 @@ footer p{
     border-radius: 4px;
     font-family: 'calibri';
     color: $color6;
-    box-shadow: 7px 5px 5px 0 black;
-
+    box-shadow: 7px 5px 5px 0 $color7;
     .Formulario h4{
         font-size: 22px;
         margin-bottom: 20px;
@@ -135,13 +128,6 @@ footer p{
                             font-size: 16px;
                         }
 }
-                
-            
-        
-    
-
-
-
 .casilla{
     margin-left: 10px;
 }
@@ -189,7 +175,7 @@ footer p{
 }
 .navbar-light .navbar-nav .nav-link:hover{
     transform: scale(2);
-    color: rgb(165, 0, 0);
+    color: $color5;
     transition: all 0.3s;
 }
 .form-check-label{
@@ -214,45 +200,45 @@ h5{
 }
 
     .img-p1{
-        background-image: url(/img_pizzas/masa_pizza.jpg);
-        background-position: center;
-        background-size: cover;
-    }
+    background-image: url(./img_pizzas/masa_pizza.jpg);
+    background-position: center;
+    background-size: cover;
+}
     .img-p2{
-        background-image: url(/img_pizzas/p_1.jpeg) ;
-        background-position:center ;
-        background-size: cover;
-    }
+    background-image: url(./img_pizzas/p_1.jpeg) ;
+    background-position:center ;
+    background-size: cover;
+}
     .img-p3{
-        background-image: url(/img_pizzas/p_2.jpeg);
-        background-position:center ;
-        background-size: cover;
-    }
+    background-image: url(./img_pizzas/p_2.jpeg);
+    background-position:center ;
+    background-size: cover;
+}
     .img-p4{
-        background-image:url(/img_pizzas/p_3.jpeg) ;
-        background-position:center ;
-        background-size: cover;
-    }
+    background-image:url(./img_pizzas/p_3.jpeg) ;
+    background-position:center ;
+    background-size: cover;
+}
     .img-p5{
-        background-image:url(/img_pizzas/pizza-champignon.jpeg) ;
-        background-position:center ;
-        background-size: cover;
-    }
+    background-image:url(./img_pizzas/pizza-champignon.jpeg) ;
+    background-position:center ;
+    background-size: cover;
+}
     .img-p6{
-        background-image:url(/img_pizzas/pizza-chica.jpg) ;
-        background-position:center ;
-        background-size: cover;
-    }
+    background-image:url(./img_pizzas/pizza-chica.jpg) ;
+    background-position:center ;
+    background-size: cover;
+}
 .img-p7{
-        background-image:url(/img_pizzas/pizza-cocina.jpg) ;
-        background-position:center ;
-        background-size: cover;
-    }
+    background-image:url(./img_pizzas/pizza-cocina.jpg) ;
+    background-position:center ;
+    background-size: cover;
+}
 .img-p8{
-        background-image:url(/img_pizzas/pizza-fondo2.jpg) ;
-        background-position:center ;
-        background-size: cover;
-    }
+    background-image:url(./img_pizzas/pizza-fondo2.jpg) ;
+    background-position:center ;
+    background-size: cover;
+}
 .realizarpedido{
         display: flex;
         flex-direction: row;

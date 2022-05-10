@@ -21,55 +21,55 @@
 }
 
 .caja1 {
-    background-image: url(/img_pizzas/p_1.jpeg);
+    background-image: url(./img_pizzas/p_1.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .caja2 {
-    background-image: url(/img_pizzas/p_2.jpeg);
+    background-image: url(./img_pizzas/p_2.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .caja3 {
-    background-image: url(/img_pizzas/p_3.jpeg);
+    background-image: url(./img_pizzas/p_3.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .caja4 {
-    background-image: url(/img_pizzas/pizza_1.jpg);
+    background-image: url(./img_pizzas/pizza_1.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .caja5 {
-    background-image: url(/img_drinks/eventos_2.jpeg);
+    background-image: url(./img_drinks/eventos_2.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .caja6 {
-    background-image: url(/img_pizzas/pizza_bebida.jpg);
+    background-image: url(./img_pizzas/pizza_bebida.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .caja7 {
-    background-image: url(/img_pizzas/nosotros.jpg);
+    background-image: url(./img_pizzas/nosotros.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .caja8 {
-    background-image: url(/img_pizzas/pizza-champignon.jpeg);
+    background-image: url(./img_pizzas/pizza-champignon.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .caja9 {
-    background-image: url(/img_pizzas/pizza-fondo2.jpg);
+    background-image: url(./img_pizzas/pizza-fondo2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -135,9 +135,9 @@
     display: -ms-grid;
     display: grid;
     width: 100%;
-    -ms-grid-columns: (1fr)2;
+    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
-    -ms-grid-rows: (60vh)1;
+    -ms-grid-rows: (60vh)[1];
     grid-template-rows: repeat(1, 60vh);
     gap: 2em;
     padding: 2%;
@@ -207,11 +207,6 @@
 
     .logo-container {
         width: 30%;
-    }
-
-    .menu {
-        width: 80%;
-        margin: 0
     }
 
     footer p {
@@ -427,24 +422,6 @@
         grid-row: 2/4;
     }
 
-    /* .caja4{
-        grid-column: ;
-        grid-row: ;
-
-    }
-    .caja5{
-        grid-row: ;
-        grid-column: ;
-    }
-    .caja6{
-        grid-row: ;
-        grid-column: ;
-
-    }
-    .caja7{
-        grid-row: ;
-        grid-column: ;
-    } */
     .caja8 {
         -ms-grid-row: 5;
         grid-row: 5;
@@ -483,44 +460,6 @@
 
     .logo-container {
         width: 20%;
-    }
-
-    .menu ul li a {
-        color: white;
-        margin-top: 10px;
-        padding: 5px 30px;
-        text-decoration: none;
-        font-size: 14px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-    .ubication2 {
-        margin-left: 10%;
-        border-radius: 10%;
-        height: 60vh;
-        width: 80vw;
-    }
-
-    .ubi_form {
-        max-width: 100%;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .divForm {
-        margin-left: 2em;
-    }
-
-    .formContainer__title {
-        margin-top: 1em;
-    }
-
-    .radio {
-        margin-left: 2em;
-    }
-
-    .pedido {
-        margin-left: 2em;
     }
 
     footer p {

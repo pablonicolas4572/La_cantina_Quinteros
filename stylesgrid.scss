@@ -1,150 +1,113 @@
+@import "_paleta.scss";
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .grid-container {
-
     width: 100%;
     display: grid;
     gap: 1em;
-
-
 }
-
 .caja {
     /* border:orange solid 3px; */
     border-radius: 10px;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
-
 }
-
 .caja1 {
-    background-image: url(/img_pizzas/p_1.jpeg);
+    background-image: url(./img_pizzas/p_1.jpeg);
     background-size: cover;
     background-position: center;
 }
-
 .caja2 {
-    background-image: url(/img_pizzas/p_2.jpeg);
+    background-image: url(./img_pizzas/p_2.jpeg);
     background-size: cover;
     background-position: center;
-
 }
-
 .caja3 {
-    background-image: url(/img_pizzas/p_3.jpeg);
+    background-image: url(./img_pizzas/p_3.jpeg);
     background-size: cover;
     background-position: center;
-
 }
-
 .caja4 {
-    background-image: url(/img_pizzas/pizza_1.jpg);
+    background-image: url(./img_pizzas/pizza_1.jpg);
     background-size: cover;
     background-position: center;
-
 }
-
 .caja5 {
-    background-image: url(/img_drinks/eventos_2.jpeg);
+    background-image: url(./img_drinks/eventos_2.jpeg);
     background-size: cover;
     background-position: center;
-
-
 }
-
 .caja6 {
-    background-image: url(/img_pizzas/pizza_bebida.jpg);
+    background-image: url(./img_pizzas/pizza_bebida.jpg);
     background-size: cover;
     background-position: center;
-
 }
-
 .caja7 {
-    background-image: url(/img_pizzas/nosotros.jpg);
+    background-image: url(./img_pizzas/nosotros.jpg);
     background-size: cover;
     background-position: center;
-
 }
-
 .caja8 {
-    background-image: url(/img_pizzas/pizza-champignon.jpeg);
+    background-image: url(./img_pizzas/pizza-champignon.jpeg);
     background-size: cover;
     background-position: center;
 }
-
 .caja9 {
-    background-image: url(/img_pizzas/pizza-fondo2.jpg);
+    background-image: url(./img_pizzas/pizza-fondo2.jpg);
     background-size: cover;
     background-position: center;
 }
-
 /* galeria*/
 .galeria {
     display: grid;
     width: 100%;
     gap: 2em;
 }
-
-
 .image1 {
     background-image: url(./img_pizzas/pizza_2.jpg);
     background-position: center;
     background-size: cover;
-
 }
-
 .image2 {
     background-image: url(./img_drinks/beb.alcohol2.jpg);
     background-position: center;
     background-size: cover;
-
 }
-
 .image3 {
     background-image: url(./img_drinks/beb.alcohol3.jpg);
     background-position: center;
     background-size: cover;
-
 }
-
 .image4 {
     background-image: url(./img_pizzas/pizza_3.jpg);
     background-position: center;
     background-size: cover;
-
 }
-
 .image5 {
     background-image: url(./img_pizzas/masa_pizza.jpg);
     background-position: center;
     background-size: cover;
-
 }
-
 .image6 {
     background-image: url(./img_pizzas/fondo-pizza.jpg);
     background-position: center;
     background-size: cover;
-
 }
-
 .image7 {
     background-image: url(./img_pizzas/pizza-chica.jpg);
     background-position: center;
     background-size: cover;
 }
-
 .image8 {
     background-image: url(./img_pizzas/pizza-pala.jpg);
     background-position: center;
     background-size: cover;
 }
-
 /* acerda de */
 .imgrid {
     display: grid;
@@ -154,23 +117,19 @@
     gap: 2em;
     padding: 2%;
 }
-
 .imgs {
-    border-radius: 3px solid black;
+    border-radius: 3px solid $color7;
 }
-
 .imgs1 {
     background-image: url(./img_pizzas/pizza-cocina.jpg);
     background-position: center;
     background-size: cover;
 }
-
 .imgs2 {
     background-image: url(./img_pizzas/pizza-pala.jpg);
     background-position: center;
     background-size: cover;
 }
-
 .imageEventos {
     display: grid;
     width: 100%;
@@ -179,29 +138,24 @@
     gap: 2em;
     padding: 2%;
 }
-
 .imgev {
     border-radius: 3px solid;
 }
-
 .imgev1 {
     background-image: url(./img_drinks/eventos_1.jpg);
     background-position: center;
     background-size: cover;
 }
-
 .imgev2 {
     background-image: url(./img_drinks/eventos_2.jpeg);
     background-position: center;
     background-size: cover;
 }
-
 .imgev3 {
     background-image: url(./img_pizzas/fondo-pizza.jpg);
     background-position: center;
     background-size: cover;
 }
-
 /* MEDIA-QUERIES*/
 @media only screen and (min-width: 320px) and (max-width:480px) {
     .grid-container {
@@ -337,9 +291,7 @@
         flex-direction: row;
         justify-content: space-between;
     }
-
 }
-
 @media only screen and (min-width: 768px) {
     .grid-container {
         padding: 2%;
@@ -381,7 +333,7 @@
     }
 
     .image {
-        border-radius: 3px solid black;
+        border-radius: 3px solid $color7;
     }
 
     .image8 {
