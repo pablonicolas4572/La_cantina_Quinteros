@@ -1,492 +1,609 @@
 * {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.grid-container {
-    width: 100%;
-    display: -ms-grid;
-    display: grid;
-    gap: 1em;
-}
-
-.caja {
-    /* border:orange solid 3px; */
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .caja1 {
-    background-image: url(./img_pizzas/p_1.jpeg);
-    background-size: cover;
-    background-position: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.image1 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgs1 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgev1 {
+  background-position: center;
+  background-size: cover;
 }
 
 .caja2 {
-    background-image: url(./img_pizzas/p_2.jpeg);
-    background-size: cover;
-    background-position: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.image2 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgs2 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgev2 {
+  background-position: center;
+  background-size: cover;
 }
 
 .caja3 {
-    background-image: url(./img_pizzas/p_3.jpeg);
-    background-size: cover;
-    background-position: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.image3 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgs3 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgev3 {
+  background-position: center;
+  background-size: cover;
 }
 
 .caja4 {
-    background-image: url(./img_pizzas/pizza_1.jpg);
-    background-size: cover;
-    background-position: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.image4 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgs4 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgev4 {
+  background-position: center;
+  background-size: cover;
 }
 
 .caja5 {
-    background-image: url(./img_drinks/eventos_2.jpeg);
-    background-size: cover;
-    background-position: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.image5 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgs5 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgev5 {
+  background-position: center;
+  background-size: cover;
 }
 
 .caja6 {
-    background-image: url(./img_pizzas/pizza_bebida.jpg);
-    background-size: cover;
-    background-position: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.image6 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgs6 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgev6 {
+  background-position: center;
+  background-size: cover;
 }
 
 .caja7 {
-    background-image: url(./img_pizzas/nosotros.jpg);
-    background-size: cover;
-    background-position: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.image7 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgs7 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgev7 {
+  background-position: center;
+  background-size: cover;
 }
 
 .caja8 {
-    background-image: url(./img_pizzas/pizza-champignon.jpeg);
-    background-size: cover;
-    background-position: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.image8 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgs8 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgev8 {
+  background-position: center;
+  background-size: cover;
 }
 
 .caja9 {
-    background-image: url(./img_pizzas/pizza-fondo2.jpg);
-    background-size: cover;
-    background-position: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.image9 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgs9 {
+  background-position: center;
+  background-size: cover;
+}
+
+.imgev9 {
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  gap: 1em;
+}
+
+.caja {
+  /* border:orange solid 3px; */
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
+}
+
+.caja1 {
+  background-image: url(./img_pizzas/p_1.jpeg);
+}
+
+.caja2 {
+  backgrOund-image: url(./img_pizzas/p_2.jpeg);
+}
+
+.caja3 {
+  background-image: url(./img_pizzas/p_3.jpeg);
+}
+
+.caja4 {
+  background-image: url(./img_pizzas/pizza_1.jpg);
+}
+
+.caja5 {
+  background-image: url(./img_drinks/eventos_2.jpeg);
+}
+
+.caja6 {
+  background-image: url(./img_pizzas/pizza_bebida.jpg);
+}
+
+.caja7 {
+  background-image: url(./img_pizzas/nosotros.jpg);
+}
+
+.caja8 {
+  background-image: url(./img_pizzas/pizza-champignon.jpeg);
+}
+
+.caja9 {
+  background-image: url(./img_pizzas/pizza-fondo2.jpg);
 }
 
 /* galeria*/
 .galeria {
-    display: -ms-grid;
-    display: grid;
-    width: 100%;
-    gap: 2em;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  gap: 2em;
 }
 
 .image1 {
-    background-image: url(./img_pizzas/pizza_2.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./img_pizzas/pizza_2.jpg);
 }
 
 .image2 {
-    background-image: url(./img_drinks/beb.alcohol2.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./img_drinks/beb.alcohol2.jpg);
 }
 
 .image3 {
-    background-image: url(./img_drinks/beb.alcohol3.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./img_drinks/beb.alcohol3.jpg);
 }
 
 .image4 {
-    background-image: url(./img_pizzas/pizza_3.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./img_pizzas/pizza_3.jpg);
 }
 
 .image5 {
-    background-image: url(./img_pizzas/masa_pizza.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./img_pizzas/masa_pizza.jpg);
 }
 
 .image6 {
-    background-image: url(./img_pizzas/fondo-pizza.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./img_pizzas/fondo-pizza.jpg);
 }
 
 .image7 {
-    background-image: url(./img_pizzas/pizza-chica.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./img_pizzas/pizza-chica.jpg);
 }
 
 .image8 {
-    background-image: url(./img_pizzas/pizza-pala.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./img_pizzas/pizza-pala.jpg);
 }
 
 /* acerda de */
 .imgrid {
-    display: -ms-grid;
-    display: grid;
-    width: 100%;
-    -ms-grid-columns: (1fr)[2];
-    grid-template-columns: repeat(2, 1fr);
-    -ms-grid-rows: (60vh)[1];
-    grid-template-rows: repeat(1, 60vh);
-    gap: 2em;
-    padding: 2%;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (60vh)[1];
+      grid-template-rows: repeat(1, 60vh);
+  gap: 2em;
+  padding: 2%;
 }
 
 .imgs {
-    border-radius: 3px solid black;
+  border-radius: 3px solid black;
 }
 
 .imgs1 {
-    background-image: url(./img_pizzas/pizza-cocina.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./img_pizzas/pizza-cocina.jpg);
 }
 
 .imgs2 {
-    background-image: url(./img_pizzas/pizza-pala.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./img_pizzas/pizza-pala.jpg);
 }
 
 .imageEventos {
-    display: -ms-grid;
-    display: grid;
-    width: 100%;
-    -ms-grid-columns: (1fr)[3];
-    grid-template-columns: repeat(3, 1fr);
-    -ms-grid-rows: (60vh)[1];
-    grid-template-rows: repeat(1, 60vh);
-    gap: 2em;
-    padding: 2%;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (60vh)[1];
+      grid-template-rows: repeat(1, 60vh);
+  gap: 2em;
+  padding: 2%;
 }
 
 .imgev {
-    border-radius: 3px solid;
+  border-radius: 3px solid;
 }
 
 .imgev1 {
-    background-image: url(./img_drinks/eventos_1.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./img_drinks/eventos_1.jpg);
 }
 
 .imgev2 {
-    background-image: url(./img_drinks/eventos_2.jpeg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./img_drinks/eventos_2.jpeg);
 }
 
 .imgev3 {
-    background-image: url(./img_pizzas/fondo-pizza.jpg);
-    background-position: center;
-    background-size: cover;
+  background-image: url(./img_pizzas/fondo-pizza.jpg);
 }
 
 /* MEDIA-QUERIES*/
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-    .grid-container {
-        -ms-grid-rows: (150px)[9];
+  .grid-container {
+    -ms-grid-rows: (150px)[9];
         grid-template-rows: repeat(9, 150px);
-    }
-
-    .galeria {
-        -ms-grid-rows: (150px)[8];
+  }
+  .galeria {
+    -ms-grid-rows: (150px)[8];
         grid-template-rows: repeat(8, 150px);
-    }
-
-    .logo-container {
-        width: 30%;
-    }
-
-    footer p {
-        margin-top: 2em;
-        text-align: center;
-        font-size: 120%;
-    }
-
-    .buttons {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
+  }
+  .logo-container {
+    width: 30%;
+  }
+  footer p {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 120%;
+  }
+  .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
         -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-box-pack: justify;
+            flex-direction: row;
+    -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-        justify-content: space-between;
-    }
+            justify-content: space-between;
+  }
+  section .Formulario {
+    width: 100%;
+  }
+  .realizarpedido .boton2 {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 599px) {
-    .grid-container {
-        -ms-grid-columns: (1fr)[2];
+  .grid-container {
+    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-        -ms-grid-rows: (60vh)[5];
+    -ms-grid-rows: (60vh)[5];
         grid-template-rows: repeat(5, 60vh);
-        gap: 1em;
-        padding: 20px;
-    }
-
-    .caja9 {
-        -ms-grid-row: 5;
-        grid-row: 5;
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 2;
-        grid-column: 1/3;
-    }
-
-    .galeria {
-        -ms-grid-columns: (1fr)[2];
+    gap: 1em;
+    padding: 20px;
+  }
+  .caja9 {
+    -ms-grid-row: 5;
+    grid-row: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+  }
+  .galeria {
+    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-        -ms-grid-rows: (60vh)[4];
+    -ms-grid-rows: (60vh)[4];
         grid-template-rows: repeat(4, 60vh);
-        padding: 5%;
-    }
-
-    .imageEventos {
-        -ms-grid-columns: 1fr;
+    padding: 5%;
+  }
+  .imageEventos {
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-        -ms-grid-rows: (60vh)[3];
+    -ms-grid-rows: (60vh)[3];
         grid-template-rows: repeat(3, 60vh);
-    }
-
-    .logo-container {
-        width: 30%;
-    }
-
-    footer p {
-        margin-top: 2em;
-        text-align: center;
-        font-size: 120%;
-    }
-
-    .buttons {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
+  }
+  .logo-container {
+    width: 30%;
+  }
+  footer p {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 120%;
+  }
+  .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
         -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-box-pack: justify;
+            flex-direction: row;
+    -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-        justify-content: space-between;
-    }
+            justify-content: space-between;
+  }
+  .realizarpedido .boton2 {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-    .grid-container {
-        -ms-grid-columns: (1fr)[3];
+  .grid-container {
+    -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
-        -ms-grid-rows: (60vh)[4];
+    -ms-grid-rows: (60vh)[4];
         grid-template-rows: repeat(4, 60vh);
-    }
-
-    .caja1 {
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 3;
-        grid-column: 1/4;
-        -ms-grid-row: 2;
-        -ms-grid-row-span: 1;
-        grid-row: 2/3;
-    }
-
-    .caja9 {
-        -ms-grid-column: 2;
-        -ms-grid-column-span: 2;
-        grid-column: 2/4;
-        -ms-grid-row: 3;
-        grid-row: 3/3;
-    }
-
-    .galeria {
-        -ms-grid-columns: (1fr)[3];
+  }
+  .caja1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .caja9 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 3;
+    grid-row: 3/3;
+  }
+  .galeria {
+    -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
-        -ms-grid-rows: (60vh)[5];
+    -ms-grid-rows: (60vh)[5];
         grid-template-rows: repeat(5, 60vh);
-        padding: 5%;
-    }
-
-    .image1 {
-        -ms-grid-column: 1;
-        grid-column: 1;
-        -ms-grid-row: 1;
-        -ms-grid-row-span: 2;
-        grid-row: 1/3;
-    }
-
-    .image2 {
-        -ms-grid-column: 2;
-        -ms-grid-column-span: 2;
-        grid-column: 2/4;
-        -ms-grid-row: 1;
-        -ms-grid-row-span: 1;
-        grid-row: 1/2;
-    }
-
-    .image3 {
-        -ms-grid-column: 2;
-        -ms-grid-column-span: 2;
-        grid-column: 2/4;
-        -ms-grid-row: 2;
-        grid-row: 2/2;
-    }
-
-    .image6 {
-        -ms-grid-column: 3;
-        grid-column: 3/3;
-        -ms-grid-row: 3;
-        -ms-grid-row-span: 2;
-        grid-row: 3/5;
-    }
-
-    .image7 {
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 2;
-        grid-column: 1/3;
-    }
-
-    .image8 {
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 3;
-        grid-column: 1/4;
-    }
-
-    .logo-container {
-        width: 30%;
-    }
-
-    footer p {
-        margin-top: 2em;
-        text-align: center;
-        font-size: 120%;
-    }
-
-    .buttons {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
+    padding: 5%;
+  }
+  .image1 {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+  }
+  .image2 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .image3 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    grid-row: 2/2;
+  }
+  .image6 {
+    -ms-grid-column: 3;
+    grid-column: 3/3;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 2;
+    grid-row: 3/5;
+  }
+  .image7 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+  }
+  .image8 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+  }
+  .logo-container {
+    width: 30%;
+  }
+  footer p {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 120%;
+  }
+  .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
         -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-box-pack: justify;
+            flex-direction: row;
+    -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-        justify-content: space-between;
-    }
+            justify-content: space-between;
+  }
+  .realizarpedido .boton2 {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .grid-container {
-        padding: 2%;
-        gap: 1em;
-        -ms-grid-columns: (1fr)[3];
+  .grid-container {
+    padding: 2%;
+    gap: 1em;
+    -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
-        -ms-grid-rows: (60vh)[5];
+    -ms-grid-rows: (60vh)[5];
         grid-template-rows: repeat(5, 60vh);
-    }
-
-    .caja1 {
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 2;
-        grid-column: 1/3;
-        -ms-grid-row: 1;
-        grid-row: 1/1;
-    }
-
-    .caja2 {
-        -ms-grid-column: 3;
-        grid-column: 3/3;
-        -ms-grid-row: 1;
-        -ms-grid-row-span: 2;
-        grid-row: 1/3;
-    }
-
-    .caja3 {
-        -ms-grid-column: 1;
-        grid-column: 1/1;
-        -ms-grid-row: 2;
-        -ms-grid-row-span: 2;
-        grid-row: 2/4;
-    }
-
-    .caja8 {
-        -ms-grid-row: 5;
-        grid-row: 5;
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 3;
-        grid-column: 1/4;
-    }
-
-    .caja9 {
-        -ms-grid-row: 4;
-        grid-row: 4;
-        -ms-grid-column: 2;
-        -ms-grid-column-span: 2;
-        grid-column: 2/4;
-    }
-
-    .galeria {
-        padding: 2%;
-        -ms-grid-columns: (1fr)[3];
+  }
+  .caja1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    -ms-grid-row: 1;
+    grid-row: 1/1;
+  }
+  .caja2 {
+    -ms-grid-column: 3;
+    grid-column: 3/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+  }
+  .caja3 {
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+  }
+  .caja8 {
+    -ms-grid-row: 5;
+    grid-row: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+  }
+  .caja9 {
+    -ms-grid-row: 4;
+    grid-row: 4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+  }
+  .galeria {
+    padding: 2%;
+    -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
-        -ms-grid-rows: (60vh)[3];
+    -ms-grid-rows: (60vh)[3];
         grid-template-rows: repeat(3, 60vh);
-    }
-
-    .image {
-        border-radius: 3px solid black;
-    }
-
-    .image8 {
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 2;
-        grid-column: 1/3;
-        -ms-grid-row: 3;
-        grid-row: 3/3;
-    }
-
-    .logo-container {
-        width: 20%;
-    }
-
-    footer p {
-        margin-top: 2em;
-        text-align: center;
-        font-size: 120%;
-    }
-
-    .buttons {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
+  }
+  .image {
+    border-radius: 3px solid black;
+  }
+  .image8 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    -ms-grid-row: 3;
+    grid-row: 3/3;
+  }
+  .logo-container {
+    width: 20%;
+  }
+  footer p {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 120%;
+  }
+  .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
         -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-box-pack: justify;
+            flex-direction: row;
+    -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-        justify-content: space-between;
-    }
+            justify-content: space-between;
+  }
+  .realizarpedido .boton2 {
+    width: 50%;
+  }
 }
 
 @media (min-width: 992px) {
-    .navbar-expand-lg .navbar-collapse {
-        -ms-flex-pack: distribute;
+  .navbar-expand-lg .navbar-collapse {
+    -ms-flex-pack: distribute;
         justify-content: space-around;
-    }
+  }
 }
-
 /*# sourceMappingURL=stylesgrid.css.map */

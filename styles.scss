@@ -5,16 +5,13 @@
     box-sizing: border-box;
 }
 body{
-
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-image: url(./img_pizzas/pizza_background.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-
 }
 /* header*/
-
 .logo:hover{
     transform: scale(1.1);
     transition: all 0.4s;
@@ -43,9 +40,7 @@ body{
 }
 .ubication {
     font-size: 2em;
-    /* margin-left: 1.5em; */
     color: $color1;
-    /* text-decoration: underline; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
@@ -71,7 +66,7 @@ footer a{
     letter-spacing: 2rem;
 }
 footer a:hover{
-    color: rgb(0, 0, 0);
+    color: $color7;
     transition: all 0.2s ease-in-out;
 }
 footer p{
@@ -134,7 +129,6 @@ footer p{
 .video__1{
     margin-left: 25%;
     width: 50%;
-
 }
 .image:hover{
     transform: scale(1.03);
@@ -145,12 +139,17 @@ footer p{
     width: 70%;
 }
 .carousel-inner{
-    border-radius: 30%;
-    
+    border-radius: 10%;
+    border: $color7 2px solid;
+    box-shadow: 10px -6px 5px 0px rgba(0,0,0,0.75);
 }
 .carousel-indicators [data-bs-target]{
-    background-color: brown;
-    border-radius: 100%;
+    background-color: $color5;
+    border: solid rgba(0,0,0,0.65);
+}
+.carousel-item{
+    background-position: center;
+    background-size: cover;
 }
 .logo{
     width: 30%;
@@ -190,54 +189,48 @@ h5{
         justify-content: space-evenly;
         height: 500px;
         .imgg{
-            border: $color6 3px solid;
+            border: $color2 1px solid;
                 h4, p{
-                    color:$color6;
+                    color:$color7;
                     text-align: left;
+                    font-size: 20px;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 }
 }
 }
 
+$i:1, 2, 3, 4 ,5, 6 ,7 ,8;
+
+@for $i from 1 through 8{
+    .img-p#{$i}{
+        background-position: center;
+        background-size: cover;
+    }
+}
     .img-p1{
     background-image: url(./img_pizzas/masa_pizza.jpg);
-    background-position: center;
-    background-size: cover;
 }
     .img-p2{
     background-image: url(./img_pizzas/p_1.jpeg) ;
-    background-position:center ;
-    background-size: cover;
 }
     .img-p3{
     background-image: url(./img_pizzas/p_2.jpeg);
-    background-position:center ;
-    background-size: cover;
 }
     .img-p4{
     background-image:url(./img_pizzas/p_3.jpeg) ;
-    background-position:center ;
-    background-size: cover;
 }
     .img-p5{
     background-image:url(./img_pizzas/pizza-champignon.jpeg) ;
-    background-position:center ;
-    background-size: cover;
 }
     .img-p6{
     background-image:url(./img_pizzas/pizza-chica.jpg) ;
-    background-position:center ;
-    background-size: cover;
 }
 .img-p7{
     background-image:url(./img_pizzas/pizza-cocina.jpg) ;
-    background-position:center ;
-    background-size: cover;
 }
 .img-p8{
     background-image:url(./img_pizzas/pizza-fondo2.jpg) ;
-    background-position:center ;
-    background-size: cover;
 }
 .realizarpedido{
         display: flex;
@@ -247,7 +240,18 @@ h5{
             .boton2{
                 width: 20%;
                 padding: 20px;
-                background-color: $color5;
-            
+                background-color: $color5;  
+    }
+}
+main{
+    section{
+        article{
+            div{
+                h2{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 50%;
+                }
+            }
+        }
     }
 }
