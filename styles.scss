@@ -10,6 +10,7 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    backdrop-filter: url(./img_pizzas/pizza_background.jpg) blur(4px);
 }
 /* header*/
 .logo:hover{
@@ -27,6 +28,10 @@ body{
     font-size: 3em;
     letter-spacing: 5px;
     color: $color6;
+        h2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 50%;
+        }
 }
 .subtitle{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -60,10 +65,8 @@ footer{
 footer a{
     transition: color 0.3s ease;
     float: right;
-    padding-right: 15px;
     text-decoration: none;
     color: $color6;
-    letter-spacing: 2rem;
 }
 footer a:hover{
     color: $color7;
@@ -187,14 +190,13 @@ h5{
     padding: 2em;
     .row{
         justify-content: space-evenly;
-        height: 500px;
         .imgg{
             border: $color2 1px solid;
                 h4, p{
                     color:$color7;
                     text-align: left;
                     font-size: 20px;
-                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 }
 }
@@ -237,6 +239,7 @@ $i:1, 2, 3, 4 ,5, 6 ,7 ,8;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-around;
+        margin-top: 3em;
             .boton2{
                 width: 20%;
                 padding: 20px;
@@ -254,4 +257,14 @@ main{
             }
         }
     }
+}
+.banner{
+    background-color: rgba(247, 123, 40, 0.6);
+    padding: 6px;
+    padding-bottom: 0;
+    margin: 11px;
+    border-radius: 10px 10px;
+}
+.sub{
+    font-size: 40%;
 }

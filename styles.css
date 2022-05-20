@@ -11,6 +11,8 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  -webkit-backdrop-filter: url(./img_pizzas/pizza_background.jpg) blur(4px);
+          backdrop-filter: url(./img_pizzas/pizza_background.jpg) blur(4px);
 }
 
 /* header*/
@@ -33,6 +35,11 @@ body {
   font-size: 3em;
   letter-spacing: 5px;
   color: white;
+}
+
+.title h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50%;
 }
 
 .subtitle {
@@ -73,10 +80,8 @@ footer a {
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
   float: right;
-  padding-right: 15px;
   text-decoration: none;
   color: white;
-  letter-spacing: 2rem;
 }
 
 footer a:hover {
@@ -192,7 +197,7 @@ footer p {
 }
 
 .navbar {
-  background-color: #fc620d;
+  background-color: rgba(252, 98, 13, 0.5);
   border-bottom-left-radius: 2%;
   border-bottom-right-radius: 2%;
 }
@@ -239,7 +244,6 @@ h5 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  height: 500px;
 }
 
 .contt .row .imgg {
@@ -250,7 +254,7 @@ h5 {
   color: black;
   text-align: left;
   font-size: 20px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .img-p1 {
@@ -337,6 +341,7 @@ h5 {
       flex-wrap: nowrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 3em;
 }
 
 .realizarpedido .boton2 {
@@ -348,5 +353,17 @@ h5 {
 main section article div h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50%;
+}
+
+.banner {
+  background-color: rgba(247, 123, 40, 0.6);
+  padding: 6px;
+  padding-bottom: 0;
+  margin: 11px;
+  border-radius: 10px 10px;
+}
+
+.sub {
+  font-size: 40%;
 }
 /*# sourceMappingURL=styles.css.map */
